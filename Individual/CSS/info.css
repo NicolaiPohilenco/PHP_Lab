@@ -1,0 +1,135 @@
+/* Общие стили */
+body {
+  background-color: #FFC0CB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  h1, h2, h3, h4 {
+    color: #333333;
+  }
+  
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Шапка */
+  header {
+    background-color: #ff3366;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ff3366;
+    z-index: 1;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+/* Навигация */
+nav {
+  background-color: #ff3366;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ff99b3;
+}
+
+/* Содержимое страницы */
+.container {
+  background-color: #FFC0CB;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #FFC0CB;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  background-color: #FFC0CB;
+}
+
+/* Подвал */
+footer {
+  background-color: #FFC0CB;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  position: flex;
+left: 0;
+bottom: 0;
+width: 97%;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFC0CB; /* Цвет полосы прокрутки */
+} 
